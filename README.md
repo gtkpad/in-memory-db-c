@@ -54,7 +54,7 @@ This will generate client and server binaries in the `bin/` directory.
 To compile the project locally:
 
 ```bash
-git clone https://github.com/username/in-memory-db-c.git
+git clone https://github.com/gtkpad/in-memory-db-c.git
 cd in-memory-db-c
 make
 ```
@@ -230,7 +230,7 @@ Isso irá gerar os binários do cliente e do servidor no diretório `bin/`.
 Para compilar o projeto localmente:
 
 ```bash
-git clone https://github.com/usuario/in-memory-db-c.git
+git clone https://github.com/gtkpad/in-memory-db-c.git
 cd in-memory-db-c
 make
 ```
