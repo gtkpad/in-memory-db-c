@@ -192,14 +192,12 @@ static int32_t read_res(int fd) {
         return -1;
     }
 
-    // reply body
     err = read_full(fd, &rbuf[4], len);
     if (err) {
         msg("read() error");
         return err;
     }
 
-    // print the result
     int32_t rv = print_response((uint8_t *)&rbuf[4], len);
     if (rv > 0 && (uint32_t)rv != len) {
         msg("bad response");
